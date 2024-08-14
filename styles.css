@@ -1,0 +1,72 @@
+body{
+    overflow-x: hidden;
+}
+.accordion{
+    --bs-accordion-btn-padding-x: 0;
+    --bs-accordion-btn-padding-y: 5px;
+    --bs-accordion-active-bg: white;
+    
+    --bs-accordion-btn-focus-box-shadow: white;
+    --bs-accordion-btn-icon: none;
+    --bs-accordion-btn-icon-transform: none;
+    --bs-accordion-btn-active-icon: none;
+    --bs-accordion-body-padding-x: 68px;
+    --bs-accordion-body-padding-y: 5px;
+}
+
+.overflow-auto::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide the scrollbar in Firefox */
+.overflow-auto {
+    scrollbar-width: none;
+}
+
+/* For other browsers */
+.overflow-auto {
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+.colorprimary{
+    color: #E72331;
+}
+
+.bgsecondary{
+    background-color: #F4F4F4;
+}
+
+.btn-primary{
+    padding: 10px 20px;
+    background-color: #E72331 !important;
+    border-radius: 5px;
+    border-color: #E72331 !important;
+}
+.btn-primary:hover{
+    background-color: #ce1b27 !important;
+    border-color: #ce1b27 !important;
+}
+
+.btn-primary:active{
+    background-color: #ce1b27 !important;
+    border-color: #ce1b27 !important;
+}
+
+.btn-primary:visited{
+    background-color: #ce1b27 !important;
+    border-color: #ce1b27 !important;
+}
+
+.listfooter{
+    list-style: none;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+
+
+
